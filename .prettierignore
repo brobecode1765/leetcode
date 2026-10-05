@@ -1,0 +1,17 @@
+# Ignore build and output artifacts
+dist/
+build/
+coverage/
+
+# Ignore lockfiles and package configurations
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore compiled or minified files
+*.min.js
+*.min.css
+
+# Ignore editor configs
+.vscode/
+.idea/
